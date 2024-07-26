@@ -35,6 +35,23 @@ const ProductDisplay = (props) => {
                     <div className="productdisplay-right-price-new">
                         ${product.new_price}
                     </div>
+                    <div className="productdisplay-right-description">
+                    A shirt is an upper-body garment with a collar, sleeves, and a front opening, 
+                    available in various styles and fabrics for both casual and formal wear.
+                    </div>
+                    <div className="productdisplay-right-size">
+                        <h1>Select Size</h1>
+                        <div className="productdisplay-right-size">
+                            <div>S</div>
+                            <div>M</div>
+                            <div>L</div>
+                            <div>XL</div>
+                            <div>XXl</div>
+                        </div>
+                    </div>
+                    <button>ADD TO CART</button>
+                    <p className='productdisplay-right-category'><span>Category :</span>Women , T-Shirt, CropTop</p>
+                    <p className='productdisplay-right-category'><span>Tags :</span>Modern , Latest</p>
                 </div>
         </div>
     </div>
