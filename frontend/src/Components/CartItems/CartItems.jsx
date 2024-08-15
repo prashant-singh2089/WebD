@@ -30,8 +30,8 @@ const CartItems = () => {
         <hr />
         </div>
             }
-            return null
-        })}
+            return null;
+          })}
         <div className="cartitems-down">
             <div className="cartitems-total">
                 <h1>cart Totals</h1>
