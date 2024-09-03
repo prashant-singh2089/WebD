@@ -136,7 +136,7 @@
     }
     .nav-dropdown{
         display: block;
-        width: 30px;
+        width: 40px;
         rotate: -90deg;
         transition: 0.5s;
     }
