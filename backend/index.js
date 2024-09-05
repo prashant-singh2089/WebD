@@ -6,3 +6,5 @@ const jwt = require("jsonwebtoken");
 const multer = require("multer");
 const path = require("path");
 const cors = require("cors");
+app.use(express.json()); //request to response that will automatically pass through the json
+app.use(cors()); //react project connect to express app to 4000 port
