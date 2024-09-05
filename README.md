@@ -7,26 +7,32 @@ This project is an eCommerce website developed using React JS. It features a mod
 🎯Features:
 
 1. Home Page:
+   
 Display of trending products.
 Offer banner to highlight promotions.
 Newsletter subscription form for users to sign up for updates.
 
-3. Category Pages:
+2. Category Pages:
+   
 Men's, Women's, and Kids' categories with product listings.
 
-4. Single Product Page:
+3. Single Product Page:
+   
 Image gallery to showcase the product.
 Display of product price, description, and related products.
 
-5. Shopping Cart Page:
+4. Shopping Cart Page:
+   
 Overview of products added to the cart.
 Users can view, update, or remove products from the cart.
 
-6. Login/Register Page:
+5. Login/Register Page:
+    
 Users can create an account or log in to their existing accounts.
 Secure user authentication flow.
 
-7. Responsive Design:
+6. Responsive Design:
+    
 Fully responsive layout for phones, tablets, and desktops using CSS media queries to ensure an optimal browsing experience across all devices.
 
 Acknowledgment:
