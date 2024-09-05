@@ -6,6 +6,8 @@ const jwt = require("jsonwebtoken");
 const multer = require("multer");
 const path = require("path");
 const cors = require("cors");
+const { error } = require("console");
+
 app.use(express.json()); //request to response that will automatically pass through the json
 app.use(cors()); //react project connect to express app to 4000 port
 
@@ -17,3 +19,17 @@ mongoose.connect("mongodb+srv://ecommerceweb:ecom1234@cluster0.553bf.mongodb.net
 app.get("/",(req,res)=>{
     res.send("Express App is Running")
 })
+
+app.listen(port,(error)=>{
+    if(!error){
+        console.log("server Running on Port "+port)
+    }
+    else{
+        console.log("Error : "+error)
+    }
+})
+
+
+
+
+
