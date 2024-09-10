@@ -12,8 +12,17 @@ app.use(express.json()); //request to response that will automatically pass thro
 app.use(cors()); //react project connect to express app to 4000 port
 
 // Database connection with MongoDB
-mongoose.connect("mongodb+srv://ecommerceweb:ecom1234@cluster0.553bf.mongodb.net/e-commerce");
-
+//mongoose.connect("mongodb+srv://ecommerceweb:ecom1234@cluster0.553bf.mongodb.net/e-commerce");
+//mongodb+srv://ecommerceweb:@cluster0.553bf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+// Database connection
+mongoose.connect("mongodb+srv://adhiuda98:ecom1234@cluster0.8m7aa.mongodb.net/full-stack-e-commerce-website", {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  }).then(() => {
+    console.log('Connected to MongoDB');
+  }).catch(err => {
+    console.error('MongoDB connection error:', err);
+  });
 //API creation
 
 app.get("/",(req,res)=>{
@@ -127,8 +136,6 @@ app.get('/allproducts',async (req,res)=>{
     console.log("All products Fetched");
     res.send(products);
 })
-
-
 
 
 app.listen(port,(error)=>{
