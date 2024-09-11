@@ -21,8 +21,7 @@ mongoose.connect("mongodb+srv://ecommerceweb:ecom1234@cluster0.553bf.mongodb.net
   }).then(() => {
     console.log('Connected to MongoDB');
   }).catch(err => {
-    c
-    onsole.error('MongoDB connection error:', err);
+    console.error('MongoDB connection error:', err);
   });
 //API creation
 
