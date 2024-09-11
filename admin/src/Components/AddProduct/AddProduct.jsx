@@ -31,7 +31,7 @@ const AddProduct = () => {
         await fetch('http://localhost:4000/upload',{ 
             method: 'POST',
             headers:{
-                'Content-type':'application/json',
+                Accept :'application/json',
             },
             body:formData,
         }).then((resp) => resp.json()).then((data)=>{responseData=data});
