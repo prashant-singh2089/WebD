@@ -57,6 +57,12 @@ mongoose.connect("mongodb+srv://ecommerceweb:ecom1234@cluster0.553bf.mongodb.net
 //Databse connction with mongodb
 //mongoose.connect("mongodb+srv://ecommerceweb:<db_password>@cluster0.553bf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
 
+//API creation
+
+app.get("/",(req,res)=>{
+    res.send("Express App is Running")
+})
+
 
 
 
