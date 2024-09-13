@@ -1,4 +1,4 @@
-const port = 4000;
+/*const port = 4000;
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
@@ -29,6 +29,8 @@ app.listen(port,(error)=>{
         console.log("Error : "+error)
     }
 })
+*/
+
 const port = 4000;
 const express = require("express");
 const app = express();
@@ -173,3 +175,11 @@ app.get('/allproducts',async (req,res)=>{
 })
 
 
+app.listen(port,(error)=>{
+    if(!error){
+        console.log("Server Running on port "+port)
+    }
+    else{
+        console.log("Error : "+error)
+    }
+})
