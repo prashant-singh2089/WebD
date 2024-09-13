@@ -12,7 +12,9 @@ const ListProduct = () => {
       .then((data)=>{setAllProducts(data)});
     }
 
-    
+    useEffect(()=>{
+      fetchInfo();
+    },[])
 
   return (
     <div className='list-product'>
