@@ -3,7 +3,7 @@ import './ListProduct.css'
 
 const ListProduct = () => {
 
- // const [allproducts,setAllProducts] = useState([]);
+const [allproducts,setAllProducts] = useState([]);
 
 
   return (
