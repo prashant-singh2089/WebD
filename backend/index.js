@@ -39,6 +39,7 @@ const path = require("path");
 const cors = require("cors");
 const exp = require("constants");
 
+app.use(express.json()); //request to response that will automatically pass through the json
 
 
 
