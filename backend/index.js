@@ -208,6 +208,14 @@ app.post('/signup',async (req,res)=>{
     for (let i = 0; i < 300; i++){
         cart[i] = 0;
     }
+    // create user
+    const user = new Users({
+        name:req.body.username,
+        email:req.body.email,
+        password:req.body.password,
+        cartData:cart,
+    })
+
 app.listen(port,(error)=>{
     if(!error){
         console.log("Server Running on port "+port)
