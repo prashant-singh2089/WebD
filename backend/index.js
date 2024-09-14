@@ -40,6 +40,9 @@ const multer = require("multer");
 const path = require("path");
 const cors = require("cors");
 const exp = require("constants");
+const { type } = require("os");
+const { deflate } = require("zlib");
+const { error } = require("console");
 
 app.use(express.json()); //request to response that will automatically pass through the json
 app.use(cors()); //react project connect to express app to 4000 port
