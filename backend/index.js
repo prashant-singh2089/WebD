@@ -196,6 +196,18 @@ const Users = mongoose.model('Users',{
     }
 })
 
+// Creating Endpoint for Registering 
+// check user have account
+app.post('/signup',async (req,res)=>{
+    let check = await Users.findOne({email:req.body.email});
+    if(check){
+        return res.status(400).json({success:false,errors:"existing user found with same email address"})
+    }
+    // if no user create empty cart
+    let cart = {};
+    for (let i = 0; i < 300; i++){
+        cart[i] = 0;
+    }
 app.listen(port,(error)=>{
     if(!error){
         console.log("Server Running on port "+port)
