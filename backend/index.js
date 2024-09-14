@@ -174,6 +174,27 @@ app.get('/allproducts',async (req,res)=>{
     //res.send("Express App is running")
 })
 
+//Schema creating for user model
+
+const Users = mongoose.model('Users',{
+    name:{
+        type:String,
+    },
+    email:{
+        type:String,
+        unique:true,
+    },
+    password:{
+        type:String,
+    },
+    cartData:{
+        type:Object,
+    },
+    date:{
+        type:Date,
+        deflate:Date.now,
+    }
+})
 
 app.listen(port,(error)=>{
     if(!error){
