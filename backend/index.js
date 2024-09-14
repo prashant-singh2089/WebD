@@ -216,6 +216,16 @@ app.post('/signup',async (req,res)=>{
         cartData:cart,
     })
 
+    // save user
+    await user.save();
+
+    // creating token with data
+    const data = {
+        user:{
+            id:user.id
+        }
+    }
+
 app.listen(port,(error)=>{
     if(!error){
         console.log("Server Running on port "+port)
