@@ -14,6 +14,10 @@ const LoginSignup = () => {
     setFormData({...formData,[e.target.name]:e.target.value})
   }
 
+  // add the API for login
+  const login = async () =>{
+    console.log("login Function Executed",formData);
+  } 
 
   return (
     <div className='loginsignup'>
