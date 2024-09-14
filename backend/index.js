@@ -226,6 +226,12 @@ app.post('/signup',async (req,res)=>{
         }
     }
 
+    //create token will not be readable
+    const token = jwt.sign(data,'secret_ecom');
+    res.json({success:true,token})
+
+})
+
 app.listen(port,(error)=>{
     if(!error){
         console.log("Server Running on port "+port)
