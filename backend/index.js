@@ -171,7 +171,7 @@ app.get('/allproducts',async (req,res)=>{
     let products = await Product.find({});
     console.log("All products Fetched");
     res.send(products);
-    res.send("Express App is running")
+    //res.send("Express App is running")
 })
 
 
