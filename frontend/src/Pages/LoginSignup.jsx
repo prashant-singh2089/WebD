@@ -19,6 +19,11 @@ const LoginSignup = () => {
     console.log("login Function Executed",formData);
   } 
 
+  // add the API for signup
+  const signup = async () =>{
+    console.log("Signup Function Executed",formData)
+  } 
+
   return (
     <div className='loginsignup'>
       <div className="loginsignup-container">
