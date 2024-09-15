@@ -50,6 +50,10 @@
     align-items: center;
     justify-content: center;
 }
+.hero-right img{
+    width: 500px;
+    height: 700px;
+}
 @media(max-width:1440px){
     .hero-left{
         padding-left: 120px;
@@ -69,7 +73,8 @@
         font-size: 20px;
     }
     .hero-right img{
-        width: 550px;
+        width: 400px;
+        height: 600px;
     }
 }
 @media(max-width:1280px){
@@ -93,7 +98,8 @@
         font-size: 18px;
     }
     .hero-right img{
-        width: 500px;
+        width: 300px;
+        height: 500px;
     }
 }
 @media(max-width:1024px){
@@ -115,7 +121,7 @@
         font-size: 16px;
     }
     .hero-right img{
-        width: 400px;
+        width: 300px;
     }
 }
 @media(max-width:800px){
