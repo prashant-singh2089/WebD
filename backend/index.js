@@ -17,6 +17,7 @@ app.use(cors()); //react project connect to express app to 4000 port
 // Database connection with MongoDB
 //mongoose.connect("mongodb+srv://ecommerceweb:ecom1234@cluster0.553bf.mongodb.net/e-commerce");
 //mongodb+srv://ecommerceweb:@cluster0.553bf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+//mongoose.connect("mongodb+srv://ecommerceweb:<db_password>@cluster0.553bf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
 // Database connection
 mongoose.connect("mongodb+srv://ecommerceweb:ecom1234@cluster0.553bf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
     useNewUrlParser: true,
@@ -26,7 +27,6 @@ mongoose.connect("mongodb+srv://ecommerceweb:ecom1234@cluster0.553bf.mongodb.net
   }).catch(err => {
     console.error('MongoDB connection error:', err);
   });
-//Databse connction with mongodb
 //mongoose.connect("mongodb+srv://ecommerceweb:<db_password>@cluster0.553bf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
 
 //API creation
