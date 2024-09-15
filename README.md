@@ -46,12 +46,55 @@ Secure user authentication flow.
 Fully responsive layout for phones, tablets, and desktops using CSS media queries to ensure an optimal browsing experience across all devices.
 
 
+
+# Backend Development :-
+
+The backend for this eCommerce website is built using Node.js, Express, and MongoDB, providing APIs for product and user management, as well as an admin panel for product administration.
+
+
+🎯Features:
+
+APIs:
+
+Add Product API: Allows the admin to add new products.
+
+Display Product API: Retrieves and displays product details.
+
+Update Product API: Enables product updates.
+
+Update Cart API: Lets users update their cart items.
+
+Login/Register API: Handles user authentication with JWT for secure login and registration.
+
+Admin Panel: Secure interface for admins to manage product listings (add, update, delete products).
+
+
+Technologies:
+
+Node.js, Express for backend API development.
+
+MongoDB for database storage.
+
+JWT for secure user authentication.
+
+Multer for product image uploads.
+
+
+
 💻Acknowledgment:
 
 use of the following technologies and resources in building this project:
 
-React JS for the frontend framework.
+React JS: For providing an intuitive framework to develop the frontend user interface.
 
-CSS media queries for ensuring responsive design.
+Node.js and Express: For offering a scalable backend environment to build the API infrastructure.
+
+MongoDB: For efficient NoSQL data management and storage.
+
+Multer: For simplifying file upload handling.
+
+JWT: For enabling secure authentication for users and admins.
+
+CSS Media Queries: For helping create a responsive design that works across different devices.
 
 GitHub for version control and project hosting.
