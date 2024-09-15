@@ -47,7 +47,7 @@ Fully responsive layout for phones, tablets, and desktops using CSS media querie
 
 
 
-#Backend Development :-
+# Backend Development :-
 
 The backend for this eCommerce website is built using Node.js, Express, and MongoDB, providing APIs for product and user management, as well as an admin panel for product administration.
 
@@ -56,18 +56,28 @@ Features:
 APIs:
 
 Add Product API: Allows the admin to add new products.
+
 Display Product API: Retrieves and displays product details.
+
 Update Product API: Enables product updates.
+
 Update Cart API: Lets users update their cart items.
+
 Login/Register API: Handles user authentication with JWT for secure login and registration.
+
 Admin Panel: Secure interface for admins to manage product listings (add, update, delete products).
+
 
 Technologies:
 
 Node.js, Express for backend API development.
+
 MongoDB for database storage.
+
 JWT for secure user authentication.
+
 Multer for product image uploads.
+
 
 💻Acknowledgment:
 
