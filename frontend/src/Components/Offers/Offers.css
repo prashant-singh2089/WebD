@@ -26,7 +26,7 @@
 }
 .offers-left button{
     width: 282px;
-    height: 70px;
+    height: 50px;
     border-radius: 35px;
     background: #ff4141;
     border: none;
@@ -35,6 +35,7 @@
     font-weight: 500;
     margin-top: 30px;
     cursor: pointer;
+    padding: 10px;
 }
 .offers-right{
     flex: 10;
