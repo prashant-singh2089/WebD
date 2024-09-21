@@ -51,7 +51,7 @@
     justify-content: center;
 }
 .hero-right img{
-    width: 500px;
+    width: 550px;
     height: 700px;
 }
 @media(max-width:1440px){
